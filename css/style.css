@@ -68,6 +68,7 @@ body {
 .info {
 }
 .info__inner {
+    display: flex;
 }
 .info__left {
     padding: 85px 228px 226px 0px;
@@ -96,4 +97,54 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.info__right {
+}
+.right__inner {
+    position: relative;
+    width: 317px;
+    height: 560px;
+}
+.right__line {
+    width: 536px;
+    height: 725px;
+    background-image: url(../images/line.png);
+    position: absolute;
+    bottom: 0;
+}
+.right_girl {
+    width: 317px;
+    height: 560px;
+    background-image: url(../images/girl.png), url(../images/bg-girl.png);
+    position: absolute;
+}
+.right__cards {
+    position: absolute;
+    padding: 20px 24px 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 15px;
+    height: 120px;
+}
+.card-left {
+    width: 199px;
+    bottom: 98px;
+    left: -120px;
+}
+.cards_title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.cards__quantity {
+    font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+color: #13183F;
+
+}
+.card-right {
+    width: 155px;
+    right: -118px;
+    top: 103px;
 }
