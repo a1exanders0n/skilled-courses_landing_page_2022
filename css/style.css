@@ -40,7 +40,60 @@ body {
 }
 .header {
     height: 167px;
+    padding: 24px 0 87px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+.header__logo {
+
+}
+.header__btn {
+    background: #13183F;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main {
     flex-grow: 1;
+}
+.info {
+}
+.info__inner {
+}
+.info__left {
+    padding: 85px 228px 226px 0px;
+    max-width: 685px;
+}
+.left__inner {
+}
+.left__title {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    margin-bottom: 29px;
+}
+.left__text {
+    max-width: 445px;
+    margin-bottom: 40px;
+}
+.left__btn {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 63px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
