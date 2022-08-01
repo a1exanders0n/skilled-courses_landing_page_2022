@@ -26,9 +26,10 @@ body {
     color: #83869A;
 }
 .wrapper {
-    max-width: 1440px;
+    max-width: 1480px;
     background: #fff;
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -42,7 +43,7 @@ body {
     height: 167px;
     padding: 24px 0 87px;
 }
-.header__inner {
+.header__inner, .footer__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +52,7 @@ body {
 .header__logo {
 
 }
-.header__btn {
+.header__btn, .footer__btn {
     background: #13183F;
     border-radius: 28px;
     width: 167px;
@@ -179,7 +180,12 @@ color: #13183F;
     font-size: 32px;
     line-height: 40px;
     color: #FFFFFF;
-
+}
+.card__inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 218px;
+    justify-content: space-between;
 }
 .card__icon {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -195,8 +201,33 @@ color: #13183F;
     top: -24px;
 }
 .card__title {
+    /* margin-bottom: 24px; */
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
 }
 .card__text {
+    /* margin-bottom: 24px; */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
 }
 .card__btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+.footer {
+    min-height: 120px;
+    background: #13183F;
+    padding: 32px 0px;
+}
+
+.footer__logo {
+}
+.footer__btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 }
